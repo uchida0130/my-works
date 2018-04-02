@@ -13,7 +13,7 @@ function test()
   Indir  = '/mnt/aoni02/uchida/anechoic_work_2mic/origin_data/nf001001.wav';
   [ss,fs] = audioread([Indir]);
   norm = mean(ss.^2)
-
+  %this is github test.
 
   % signal_cutting();
   % signal_append();
